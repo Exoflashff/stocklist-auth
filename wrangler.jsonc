@@ -1,5 +1,11 @@
 {
   "name": "stocklist-auth",
   "main": "worker.js",
-  "compatibility_date": "2026-07-20"
-} 
+  "compatibility_date": "2026-07-20",
+  "d1_databases": [
+    {
+      "binding": "stocklist_db",
+      "database_name": "stocklist_db"
+    }
+  ]
+}
